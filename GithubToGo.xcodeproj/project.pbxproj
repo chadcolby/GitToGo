@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D0D55321897679400E71624 /* iPhoneMasterControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0D55311897679400E71624 /* iPhoneMasterControllerViewController.m */; };
 		8DC649AA18972DB100FAD966 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC649A918972DB100FAD966 /* Foundation.framework */; };
 		8DC649AC18972DB100FAD966 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC649AB18972DB100FAD966 /* CoreGraphics.framework */; };
 		8DC649AE18972DB100FAD966 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC649AD18972DB100FAD966 /* UIKit.framework */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D0D55301897679400E71624 /* iPhoneMasterControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPhoneMasterControllerViewController.h; sourceTree = "<group>"; };
+		8D0D55311897679400E71624 /* iPhoneMasterControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPhoneMasterControllerViewController.m; sourceTree = "<group>"; };
 		8DC649A618972DB100FAD966 /* GithubToGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubToGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DC649A918972DB100FAD966 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8DC649AB18972DB100FAD966 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -126,6 +129,8 @@
 				8DC649BE18972DB100FAD966 /* Main_iPad.storyboard */,
 				8DC649C118972DB100FAD966 /* BMWMasterViewController.h */,
 				8DC649C218972DB100FAD966 /* BMWMasterViewController.m */,
+				8D0D55301897679400E71624 /* iPhoneMasterControllerViewController.h */,
+				8D0D55311897679400E71624 /* iPhoneMasterControllerViewController.m */,
 				8DC649C418972DB100FAD966 /* BMWDetailViewController.h */,
 				8DC649C518972DB100FAD966 /* BMWDetailViewController.m */,
 				8DC649E418972F1B00FAD966 /* BMWNetworkController.h */,
@@ -269,6 +274,7 @@
 				8DC649B618972DB100FAD966 /* main.m in Sources */,
 				8DC649C318972DB100FAD966 /* BMWMasterViewController.m in Sources */,
 				8DC649BA18972DB100FAD966 /* BMWAppDelegate.m in Sources */,
+				8D0D55321897679400E71624 /* iPhoneMasterControllerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +493,7 @@
 				8DC649E018972DB100FAD966 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8DC649E118972DB100FAD966 /* Build configuration list for PBXNativeTarget "GithubToGoTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +502,7 @@
 				8DC649E318972DB100FAD966 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

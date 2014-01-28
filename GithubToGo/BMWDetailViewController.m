@@ -41,6 +41,7 @@
         
         NSString *htmlString = self.detailItem[@"html_url"];
         [self.repoWebView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:htmlString]]];
+        
     }
 }
 
@@ -61,7 +62,7 @@
 
 - (void)splitViewController:(UISplitViewController *)splitController willHideViewController:(UIViewController *)viewController withBarButtonItem:(UIBarButtonItem *)barButtonItem forPopoverController:(UIPopoverController *)popoverController
 {
-    barButtonItem.title = NSLocalizedString(@"Master", @"Master");
+    barButtonItem.title = NSLocalizedString(@"Search", @"Details");
     [self.navigationItem setLeftBarButtonItem:barButtonItem animated:YES];
     self.masterPopoverController = popoverController;
 }

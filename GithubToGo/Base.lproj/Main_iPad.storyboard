@@ -31,30 +31,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="703" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Detail view content goes here" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="0XM-y9-sOw">
-                                <rect key="frame" x="20" y="376" width="663" height="17"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" size="system"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QCf-ZL-QrM">
-                                <rect key="frame" x="-14" y="63" width="768" height="1000"/>
+                                <rect key="frame" x="0.0" y="43" width="703" height="927"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="1000" id="YDI-a7-jQu"/>
+                                    <constraint firstAttribute="height" constant="927" id="UPR-mo-aDf"/>
                                 </constraints>
                             </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="QCf-ZL-QrM" secondAttribute="trailing" constant="-51" id="IJm-sm-PnU"/>
-                            <constraint firstItem="QCf-ZL-QrM" firstAttribute="leading" secondItem="svH-Pt-448" secondAttribute="leading" constant="-14" id="L8C-qf-c5L"/>
-                            <constraint firstItem="0XM-y9-sOw" firstAttribute="leading" secondItem="svH-Pt-448" secondAttribute="leading" constant="20" symbolic="YES" id="NS1-WW-c6O"/>
-                            <constraint firstAttribute="trailing" secondItem="0XM-y9-sOw" secondAttribute="trailing" constant="20" symbolic="YES" id="P48-OR-b2w"/>
-                            <constraint firstItem="0XM-y9-sOw" firstAttribute="centerY" secondItem="svH-Pt-448" secondAttribute="centerY" id="gUV-Cj-Qpb"/>
-                            <constraint firstItem="QCf-ZL-QrM" firstAttribute="top" secondItem="svH-Pt-448" secondAttribute="top" constant="63" id="uXk-yf-xxt"/>
+                            <constraint firstItem="QCf-ZL-QrM" firstAttribute="top" secondItem="svH-Pt-448" secondAttribute="top" constant="43" id="kmh-tn-9ne"/>
+                            <constraint firstAttribute="trailing" secondItem="QCf-ZL-QrM" secondAttribute="trailing" id="mUs-en-lW3"/>
+                            <constraint firstItem="QCf-ZL-QrM" firstAttribute="leading" secondItem="svH-Pt-448" secondAttribute="leading" id="sVa-hd-zyN"/>
                         </constraints>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
@@ -98,11 +88,11 @@
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                             <items>
                                 <barButtonItem style="plain" id="lmv-2K-K2L">
-                                    <textField key="customView" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Search" minimumFontSize="17" id="0dW-ub-zQm">
+                                    <textField key="customView" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Search" minimumFontSize="17" clearButtonMode="whileEditing" id="0dW-ub-zQm">
                                         <rect key="frame" x="16" y="7" width="258" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
+                                        <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="search" enablesReturnKeyAutomatically="YES"/>
                                     </textField>
                                 </barButtonItem>
                                 <barButtonItem systemItem="search" id="zeS-2k-3Ac">
