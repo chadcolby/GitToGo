@@ -10,8 +10,12 @@
 
 @class BMWDetailViewController;
 
-@interface BMWMasterViewController : UITableViewController
+@interface BMWMasterViewController : UITableViewController <UITableViewDataSource, UITableViewDelegate>
 
 @property (strong, nonatomic) BMWDetailViewController *detailViewController;
+@property (weak, nonatomic) IBOutlet UITextField *searchField;
+
+- (IBAction)searchButton:(id)sender;
+
 
 @end

@@ -10,7 +10,9 @@
 
 @interface BMWDetailViewController ()
 @property (strong, nonatomic) UIPopoverController *masterPopoverController;
+
 - (void)configureView;
+
 @end
 
 @implementation BMWDetailViewController
@@ -36,21 +38,23 @@
     // Update the user interface for the detail item.
 
     if (self.detailItem) {
-        self.detailDescriptionLabel.text = [self.detailItem description];
+        
+        NSString *htmlString = self.detailItem[@"html_url"];
+        [self.repoWebView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:htmlString]]];
     }
 }
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
     [self configureView];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
 }
 
 #pragma mark - Split view

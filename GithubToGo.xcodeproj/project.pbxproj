@@ -23,6 +23,7 @@
 		8DC649D118972DB100FAD966 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC649AD18972DB100FAD966 /* UIKit.framework */; };
 		8DC649D918972DB100FAD966 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8DC649D718972DB100FAD966 /* InfoPlist.strings */; };
 		8DC649DB18972DB100FAD966 /* GithubToGoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC649DA18972DB100FAD966 /* GithubToGoTests.m */; };
+		8DC649E618972F1B00FAD966 /* BMWNetworkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC649E518972F1B00FAD966 /* BMWNetworkController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		8DC649D618972DB100FAD966 /* GithubToGoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GithubToGoTests-Info.plist"; sourceTree = "<group>"; };
 		8DC649D818972DB100FAD966 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8DC649DA18972DB100FAD966 /* GithubToGoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GithubToGoTests.m; sourceTree = "<group>"; };
+		8DC649E418972F1B00FAD966 /* BMWNetworkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMWNetworkController.h; sourceTree = "<group>"; };
+		8DC649E518972F1B00FAD966 /* BMWNetworkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMWNetworkController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,8 @@
 				8DC649C218972DB100FAD966 /* BMWMasterViewController.m */,
 				8DC649C418972DB100FAD966 /* BMWDetailViewController.h */,
 				8DC649C518972DB100FAD966 /* BMWDetailViewController.m */,
+				8DC649E418972F1B00FAD966 /* BMWNetworkController.h */,
+				8DC649E518972F1B00FAD966 /* BMWNetworkController.m */,
 				8DC649C718972DB100FAD966 /* Images.xcassets */,
 				8DC649B018972DB100FAD966 /* Supporting Files */,
 			);
@@ -260,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DC649C618972DB100FAD966 /* BMWDetailViewController.m in Sources */,
+				8DC649E618972F1B00FAD966 /* BMWNetworkController.m in Sources */,
 				8DC649B618972DB100FAD966 /* main.m in Sources */,
 				8DC649C318972DB100FAD966 /* BMWMasterViewController.m in Sources */,
 				8DC649BA18972DB100FAD966 /* BMWAppDelegate.m in Sources */,
